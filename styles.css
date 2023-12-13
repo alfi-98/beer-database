@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#beerList div, #favoritesList div {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    border-radius: 4px;
+}
+
+#favoritesList {
+    display: none;
+}
+
+#goBack {
+    margin-top: 20px;
+    background-color: #ff2e2e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#goBack:hover {
+    background-color: #E82C0C;
+}
+
+#clearFavorites {
+
+    margin-top: 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    display: none; 
+  }
+  
+  #clearFavorites span {
+    margin-right: 5px;
+    font-weight: bold;
+  }
+
+  #toggleView {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .toggleViewActive {
+    background-color: #FF4136;
+  }
+  

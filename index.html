@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beer Database</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>BEER DATABASE</h1>
+    <input type="text" id="searchBox" placeholder="Search for Beer..">
+    <button onclick="searchBeers()">Search</button>
+    <button id="toggleView" onclick="toggleFavoritesView()">Show Favorites</button>
+    <button id="clearFavorites" onclick="clearFavorites()" style="display:none;">
+        <span>&times;</span> Clear Favorites
+      </button>
+    <div id="beerList"></div>
+    <div id="favoritesList" style="display:none;"></div>
+    <button id="goBack" onclick="goBack()">Go Back</button>
+</body>
+</html>
